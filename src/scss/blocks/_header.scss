@@ -1,0 +1,36 @@
+.header{
+    margin-top: 10px;
+    font-weight: 700;
+    &__promo{
+        display: grid;
+        grid-template-rows: 1fr;
+        grid-template-columns: 3fr 2fr 2fr 1fr;
+    }
+    &__item{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    &__menu{
+        a{
+            text-decoration: none;
+            color: $text-color;
+            font-size: 20px;
+        }
+    }
+    &__logo{
+        margin: 0 auto;
+    }
+    &__maps{
+        font-size: 20px;
+        margin: auto 0;
+    }
+    &__interface{
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        a{
+            margin-right: 5px;
+        }
+    }
+}

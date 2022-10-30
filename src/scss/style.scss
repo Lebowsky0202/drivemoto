@@ -1,0 +1,13 @@
+$text-color: #2F3035;
+
+@import url("fonts.css");
+@import 'blocks/header';
+
+*{
+    font-family: 'SFPro';
+    color: $text-color;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
