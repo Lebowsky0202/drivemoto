@@ -7,6 +7,9 @@ $text-color: #2F3035;
     font-family: 'SFPro';
     color: $text-color;
 }
+a{
+    text-decoration: none;
+}
 .container{
     max-width: 1170px;
     margin: 0 auto;
