@@ -1,0 +1,21 @@
+.share{
+    width: 265px;
+    height: 397px;
+    &__header{
+        width: 68.33px;
+        height: 17px;
+    }
+    &__name{
+        width: 90px;
+        height: 30px;
+        background: $blue;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        text-transform: uppercase;
+        font-family: 'Proxima Nova';
+        line-height: 18px;
+        letter-spacing: 0.1em;
+        font-weight: 700;
+    }
+}
