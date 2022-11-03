@@ -1,9 +1,12 @@
 .share{
+    position: relative;
     width: 265px;
     height: 397px;
+    border: 2px solid #F0F0F4;
     &__header{
-        width: 68.33px;
-        height: 17px;
+        height: 50px;
+        display: flex;
+        justify-content: space-between;
     }
     &__name{
         width: 90px;
@@ -14,8 +17,68 @@
         text-align: center;
         text-transform: uppercase;
         font-family: 'Proxima Nova';
-        line-height: 18px;
+        line-height: 30px;
         letter-spacing: 0.1em;
         font-weight: 700;
+    }
+    &__price{
+        font-weight: 700;
+        font-size: 27px;
+        line-height: 32px;
+        color: $blue;
+    }
+    &__real-price{
+        position: relative;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 17px;
+        text-align: right;
+        color: #C4C4C4;
+        &::before{
+            content: '';
+            display: block;
+            position: absolute;
+            background-color: #C4C4C4;
+            width: 60px;
+            height: 1px;
+            left: 50%;
+            top: 50%;
+            transform: rotate(350deg);
+        }
+    }
+    &__body{
+
+    }
+    &__img{
+        display: block;
+        margin: 0 auto;
+        margin-top: 7px;
+    }
+    &__descr{
+        text-align: center;
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 21px;
+    }
+    &__footer{
+        position: absolute;
+        height: 99px;
+        background: #F0F0F4;
+        width: 100%;
+        bottom: 0;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        &_descr{
+            margin-top: 40px;
+            span{
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+                color: $blue;
+            }
+        }
     }
 }
