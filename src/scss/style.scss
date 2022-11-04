@@ -1,11 +1,13 @@
 $text-color: #2F3035;
 $blue: #1C62CD;
+$grey: #F0F0F4;
 
 @import url("fonts.css");
 @import 'blocks/header';
 @import 'blocks/banners';
 @import 'blocks/slider';
 @import 'blocks/share';
+@import 'blocks/search';
 
 *{
     font-family: 'SFPro';

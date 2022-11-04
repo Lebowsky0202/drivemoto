@@ -1,0 +1,49 @@
+.search{
+    min-height: 122px;
+    margin-top: 77px;
+    &__categories{
+        height: 47px;
+    }
+    &__elem{
+        min-width: 204px;
+        height: 47px;
+        border: none;
+        cursor: pointer;
+        background-color: #fff;
+        font-weight: 400;
+        font-size: 20px;
+        text-align: center;
+        &:hover{
+            background: #F0F0F4;
+            font-weight: 700;
+            font-size: 20px;
+            border-radius: 5px;
+        }
+    }
+    &__wrap{
+        height: 50px;
+        margin-top: 25px;
+        background: $grey;
+        display: flex;
+        border-radius: 3px;
+    }
+    &__input-text{
+        border: none;
+        width: 100%;
+        background: $grey;
+        border-radius: 3px 0 0 3px;
+        padding-left: 20px;
+        font-size: 16px;
+    }
+    &__btn{
+        width: 145px;
+        border: none;
+        background-color: $blue;
+        border-radius: 3px;
+        font-weight: 700;
+        font-size: 14px;
+        color: #fff;
+        text-transform: uppercase;
+        cursor: pointer;
+    }
+}
