@@ -1,0 +1,25 @@
+.banner{
+    &_margins{
+        margin-top: 85px;
+    }
+    &__wrap{
+        background: $blue;
+        min-height: 165px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    &__descr{
+        font-weight: 700;
+        font-size: 36px;
+        color: #fff;
+    }
+    &__btn{
+        width: 284px;
+        height: 57px;
+        background: #FFFFFF;
+        font-weight: 500;
+        font-size: 24px;
+        border: none;
+    }
+}
