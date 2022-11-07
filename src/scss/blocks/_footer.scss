@@ -1,0 +1,71 @@
+.footer{
+    min-height: 232px;
+    background: $grey;
+    &__wrap{
+        display: flex;
+        justify-content: space-between;
+    }
+    &__item{
+        margin-top: 42px;
+    }
+    &__distribution{
+        width: 294px;
+    }
+    &__title{
+        font-weight: 700;
+        font-size: 14px;
+        margin: 0;
+    }
+    &__form{
+        margin-top: 34px;
+        width: 294px;
+        display: flex;
+    }
+    &__input{
+        height: 33px;
+        width: 200px;
+        border: none;
+        margin: 0;
+        padding-left: 12px;
+        // width: 290px;
+    }
+    &__btn{
+        width: 100px;
+        height: 33px;
+        border: none;
+        background: $blue;
+        color: #fff;
+        font-weight: 600;
+        font-size: 11px;
+    }
+    &__descr{
+        font-weight: 700;
+    }
+    &__link{
+        display: block;
+        margin-top: 2px;
+    }
+    &__social-item{
+        display: flex;
+        align-items: center;
+    }
+    &__social{
+        margin-right: 30px;
+        i{
+            font-size: 30px;
+        }
+    }
+    &__down{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 46px;
+        a{
+            display: block;
+            font-size: 10px;
+            color: #48494D;
+            margin-right: 81px;
+        }
+    }
+    
+}
