@@ -1,6 +1,9 @@
 .header{
     margin-top: 10px;
     font-weight: 700;
+    &__burger{
+        display: none;
+    }
     &__promo{
         display: grid;
         grid-template-rows: 1fr;
