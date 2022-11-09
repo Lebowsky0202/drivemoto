@@ -1,0 +1,27 @@
+.burger{
+    display: none;
+    position: fixed;
+    width: 243px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.15);
+    &__link{
+        display: block;
+        position: relative;
+        height: 70px;
+        font-size: 20px;
+        border-bottom: 1px solid #0000001A;
+        padding-left: 53px;
+        line-height: 120px;
+        i{
+            position: absolute;
+            left: 10px;
+            bottom: 0;
+            font-size: 26px;
+        }
+    }
+    &__maps{
+        font-weight: 700;
+        font-size: 20px;
+        text-align: center;
+    }
+}
