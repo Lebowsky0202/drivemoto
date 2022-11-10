@@ -1,0 +1,8 @@
+@media (max-width:768px) {
+    .banners{
+        width: 100%;
+        &__wrapper{
+            display: block;
+        }
+    }
+}

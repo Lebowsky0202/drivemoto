@@ -46,3 +46,10 @@
         }
     }
 }
+@media (max-width: 426px) {
+    .header{
+        &__subpromo{
+            font-size: 10px;
+        }
+    }
+}
